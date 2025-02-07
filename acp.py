@@ -1,6 +1,6 @@
-base = int(input("Enter Base number: "))
-power = int(input("Enter Power number: "))
+base_num = int(input("Enter the base: "))
+exp = int(input("Enter the power: "))
 
-result = base ** power
+result = base_num ** exp
 
-print(f"{base} to the power {power} : {result}")
+print(f"{base_num} to the power of {exp} is: {result}")
